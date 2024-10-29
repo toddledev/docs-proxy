@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "pomdtr.excalidraw-editor",
+    "yoavbls.pretty-ts-errors",
+    "bradymholt.pgformatter"
+  ]
+}

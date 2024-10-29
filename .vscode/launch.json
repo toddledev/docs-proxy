@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "Wrangler",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "cwd": "/",
+      "resolveSourceMapLocations": null,
+      "attachExistingChildren": false,
+      "autoAttachChildProcesses": false,
+      "sourceMaps": true
+    },
+    {
+      "type": "bun",
+      "request": "attach",
+      "name": "Attach to Bun",
+      // The URL of the WebSocket inspector to attach to.
+      // This value can be retrieved by using `bun --inspect`.
+      "url": "ws://localhost:6499/toddle"
+    }
+  ]
+}

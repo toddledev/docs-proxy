@@ -1,0 +1,9 @@
+**/node_modules/
+**/*.js
+supabase/
+scripts/
+runtime/
+search/
+worker/src/.eslintrc.cjs
+toddle.new/
+test-api-server/
